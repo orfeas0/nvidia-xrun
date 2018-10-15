@@ -3,5 +3,7 @@ if [ $# -gt 0 ]; then
 else
 #    openbox-session
 #   startkde
-	awesome
+#	awesome
+#	If you already use .xinitrc for your wm session, perfect
+.	~/.xinitrc
 fi
